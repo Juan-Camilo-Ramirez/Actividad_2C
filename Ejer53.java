@@ -76,7 +76,7 @@ public class Ejer53 extends Bse{
         numRoT=numRoT.substring(1);}
     
 
-        
+
     if (numRoT.startsWith("IX")){
         numara+=9;
         numRoT=numRoT.substring(2);}
@@ -105,14 +105,7 @@ public class Ejer53 extends Bse{
         numara+=1;
         numRoT=numRoT.substring(1);}
 
-
-
-
-
-
-
-
-        screen.println(numara);
+        screen.println("El numero es: " + numara);
     }
 }
 
